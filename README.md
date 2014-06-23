@@ -5,8 +5,9 @@ just brain fuck :p
 
 #TODO
 
-wget Version
-avoid osi layer 8 errors 
+*wget Version
+
+*avoid osi layer 8 errors 
 
 
 <a href="http://www.wtfpl.net/"><img

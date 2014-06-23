@@ -1,7 +1,7 @@
-artedumper
+plus7dumper
 ==========
 
-dumper for arte.tv/plus7
+if you know what you do you may need it or not!
 
 
 <a href="http://www.wtfpl.net/"><img

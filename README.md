@@ -1,7 +1,7 @@
 plus7dumper
 ==========
 
-if you know what you do you may need it or not!
+just brain fuck :p
 
 
 <a href="http://www.wtfpl.net/"><img

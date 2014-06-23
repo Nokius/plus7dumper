@@ -7,11 +7,11 @@
 #################################
 
 #variable
-tmp0=/tmp/artetmp0  # contains the webpage
-tmp1=/tmp/artetmp1  # contains the tmp json link
-tmp2=/tmp/artetmp2  # contains the needed json link
-tmp3=/tmp/artetmp3  # contains the link
-tmp4=/tmp/artetmp4  # contains the json data
+tmp0=/tmp/tmp0  # contains the webpage
+tmp1=/tmp/tmp1  # contains the tmp json link
+tmp2=/tmp/tmp2  # contains the needed json link
+tmp3=/tmp/tmp3  # contains the link
+tmp4=/tmp/tmp4  # contains the json data
 
 
 #Code
@@ -49,6 +49,6 @@ echo    "####################################"
 
 #clean up
 
-rm /tmp/artetmp*
+rm $tmp0 && rm $tmp1 && rm $tmp2 && rm $tmp3 && rm $tmp4
 
 exit 0

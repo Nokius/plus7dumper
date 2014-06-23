@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #################################
-#     	Arte dumper v0.1	      #
-#	    (c)	2014   WTFPL	        #
-#	          Nokius	            #
+# 	Arte dumper v0.1	#
+#	(c)	2014   WTFPL	#
+#	      Nokius		#
 #################################
 
 #variable

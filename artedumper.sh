@@ -49,6 +49,6 @@ echo    "####################################"
 
 #clean up
 
-rm $tmp0 && rm $tmp1 && rm $tmp2 && rm $tmp3 && rm $tmp4
+rm $tmp0 $tmp1 $tmp2 $tmp3 $tmp4
 
 exit 0

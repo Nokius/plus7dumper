@@ -6,7 +6,9 @@ just a brain fuck :p
 #USAGE
 
 get from plus7 the link of the wanted video and copy it into the script
+
 e.g.
+
 Enter the Arte plus 7 link
 http://www.arte.tv/guide/de/0324342-059/somemovie?autoplay=1
 

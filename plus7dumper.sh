@@ -116,11 +116,15 @@ case $n in
     4) echo "Goodbye" 
 	rm $tmp0 $tmp1 $tmp2 $tmp3 $tmp4
 	streamname=""
+	filename= ""
+	filepath= ""
 	return
 ;;
     *) 	echo "invalid option"
 	rm $tmp0 $tmp1 $tmp2 $tmp3 $tmp4
 	streamname=""
+	filename= ""
+	filepath= ""
 	return
 ;;
 esac
@@ -131,5 +135,7 @@ printf "%*s" $COLUMNS | tr " " "#"
 
 rm $tmp0 $tmp1 $tmp2 $tmp3 $tmp4
 streamname=""
+filename= ""
+filepath= ""
 
 return

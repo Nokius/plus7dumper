@@ -16,7 +16,9 @@ some Links get a redirect if this happens may you will get the error
 
 "Needed link is missing"
 
+!!! be careful if the movie file has the same name as alleady downloaded one it will overwrite the old Version !!!!
 
+this script works well no Linux and on OS X don't use the right color but it will do it job there to....
 
 
 <a href="http://www.wtfpl.net/"><img

@@ -1,13 +1,22 @@
-plus7dumper
+plus7dumper v0.2
 ==========
 
-just brain fuck :p
+just a brain fuck :p
 
-#TODO
+#USAGE
 
-*wget Version
+get from plus7 the link of the wanted video and copy it into the script
+e.g.
+Enter the Arte plus 7 link
+http://www.arte.tv/guide/de/0324342-059/somemovie?autoplay=1
 
-*avoid osi layer 8 errors 
+the part ?autoplay=1 is needed if this is not in the given url the script returns an error!
+
+some Links get a redirect if this happens may you will get the error
+
+"Needed link is missing"
+
+
 
 
 <a href="http://www.wtfpl.net/"><img

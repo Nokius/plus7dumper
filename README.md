@@ -1,4 +1,4 @@
-plus7dumper v0.2
+plus7dumper v0.2b
 ==========
 
 just a brain fuck :p

@@ -89,7 +89,7 @@ echo "Wich quality of '$streamname' you like to download?"
 echo " 1) 200p 2) 406p 3) 720p 4) QUIT"
 read n
 case $n in
-    1) link=$(grep -o 'http://artestras.vo.llnwxd.net/o35/nogeo/HBBTV/[^:]*MP4-800_AMM-HBBTV.mp4' $tmp4)
+    1) link=$(grep -o 'http://artestras.vo.llnwxd.net/v2/am/HBBTV/[^:]*MP4-800_AMM-HBBTV.mp4' $tmp4)
 	echo "Where to save the file?"
 	echo "e.g. /home/username"
 	read filepath
@@ -97,7 +97,7 @@ case $n in
 	curl -o $filepath/$filename.mp4 $link
 	echo " $streamname is saved at $filepath/$filename.mp4"
 ;;
-    2) link=$(grep -o 'http://artestras.vo.llnwxd.net/o35/nogeo/HBBTV/[^:]*MP4-1500_AMM-HBBTV.mp4' $tmp4)
+    2) link=$(grep -o 'http://artestras.vo.llnwxd.net/v2/am/HBBTV/[^:]*MP4-1500_AMM-HBBTV.mp4' $tmp4)
         echo "Where to save the file?"
         echo "e.g. /home/username"
         read filepath
@@ -105,7 +105,7 @@ case $n in
         curl -o $filepath/$filename.mp4 $link
         echo " $streamname is saved at $filepath/$filename.mp4"
 ;;
-    3) link=$(grep -o 'http://artestras.vo.llnwxd.net/o35/nogeo/HBBTV/[^:]*MP4-2200_AMM-HBBTV.mp4' $tmp4)
+    3) link=$(grep -o 'http://artestras.vo.llnwd.net/v2/am/HBBTV/[^:]*MP4-2200_AMM-HBBTV.mp4' $tmp4)
         echo "Where to save the file?"
         echo "e.g. /home/username"
         read filepath
@@ -135,7 +135,7 @@ printf "%*s" $COLUMNS | tr " " "#"
 
 rm $tmp0 $tmp1 $tmp2 $tmp3 $tmp4
 streamname=""
-filename= ""
-filepath= ""
+filename=""
+filepath=""
 
 return

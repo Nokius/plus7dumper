@@ -1,3 +1,7 @@
+This project is outdated !
+
+I recommend [youtube-dl](http://youtube-dl.org/)
+=========
 plus7dumper v0.2b
 ==========
 
